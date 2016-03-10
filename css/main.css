@@ -16,12 +16,17 @@
 
 #square1 {
   background: red;
+  float: left;
+  /* display: inline-block; */
   height: 200px;
 }
 
 #square2 {
   background: blue;
-  height: 200px;
+  /*display: inline-block;*/
+  /*float: left;*/
+  clear: right;
+  width: 200px;
 }
 
 #square3 {
